@@ -1,0 +1,89 @@
+extends layouts/main
+
+block content
+    // Common menu
+    section.common-menu
+        .container
+            .row.upper-info
+                ul.pull-right
+                    li
+                        span.fa.fa-map-marker
+                        |  6087 Richmond hwy, Alexandria, VA
+                    li
+                        span.fa.fa-phone
+                        |  703 329 0632
+                    li
+                        span.fa.fa-clock-o
+                        |  Mo-Fr 11:00-00:00, Sa-Su 15:00-00:00
+            .row
+                img(src='img/logo.png', alt='logo')
+                nav.pull-right
+                    ul.menu
+                        li
+                            a(href='index.html') Home
+                        li
+                            a(href='services.html') Services
+                        li
+                            a(href='team.html') Team
+                        li
+                            a(href='pricing-table.html') Offers
+                        li
+                            a(href='menu.html') Our menu
+    // Breadcrumbs
+    .breadcrumb
+        .container
+            ul
+                li
+                    a(href='index.html') Home
+                li
+                    a(href='team.html') Team
+                li.active
+                    a(href='team-member.html') Team Member
+    // Team Member
+    section.section-team-member
+        .container
+            .col-md-6
+                img(src='img/team-member/team-member-4.jpg', alt='')
+            .col-md-6
+                h3 Manuel Umberto Juarez
+                p.position Chef
+                p.description
+                    | While our founder is our main chef, he’s also a part of our family! Managing our menu,
+                    | interior, and finances, this man still manages to rock his major position – cooking a majority of our
+                    | restaurant dishes!
+                ul.team-link
+                    li
+                        a.icon.fa.fa-facebook(href='#')
+                    li
+                        a.icon.fa.fa-twitter(href='#')
+                    li
+                        a.icon.fa.fa-google-plus(href='#')
+    // Reservation
+    section.section-reservation
+        .container
+            .col-md-1
+            .col-md-5
+                h3 Reservation
+                p
+                    | We are always ready to meet all your needs and requirements during the night time. Please call 555.329.0632 or
+                    | fill out the contact form and we will call back to you ASAP.
+            .col-md-5.reservation-form
+                form(action='')
+                    .col-md-6
+                        .form-group
+                            label.form-label.form-label-outside(for='contact-name')
+                            input#contact-name.form-control.form-control-has-validation.form-control-last-child(name='name', data-contraints='@Required', type='text', placeholder='Your name')
+                            span.form-validation
+                    .col-md-6
+                        .form-group
+                            label.form-label.form-label-outside(for='contact-email')
+                            input#contact-phone.form-control.form-control-has-validation.form-control-last-child(name='email', data-contraints='@Required', type='text', placeholder='Phone')
+                            span.form-validation
+                    .col-md-12
+                        .form-group
+                            label.form-label.form-label-outside(for='contact-email')
+                            input#contact-email.form-control.form-control-has-validation.form-control-last-child(name='email', data-contraints='@Required', type='email', placeholder='Email')
+                            span.form-validation
+                    .col-sm-2
+                        button.btn.btn-primary(type='submit') Submit
+            .col-md-1

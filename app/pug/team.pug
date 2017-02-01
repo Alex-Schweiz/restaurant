@@ -1,0 +1,187 @@
+extends layouts/main
+
+block content
+    // Common menu
+    section.common-menu
+        .container
+            .row.upper-info
+                ul.pull-right
+                    li
+                        span.fa.fa-map-marker
+                        |  6087 Richmond hwy, Alexandria, VA
+                    li
+                        span.fa.fa-phone
+                        |  703 329 0632
+                    li
+                        span.fa.fa-clock-o
+                        |  Mo-Fr 11:00-00:00, Sa-Su 15:00-00:00
+            .row
+                img(src='img/logo.png', alt='logo')
+                nav.pull-right
+                    ul.menu
+                        li
+                            a(href='index.html') Home
+                        li
+                            a(href='services.html') Services
+                        li
+                            a(href='team.html') Team
+                        li
+                            a(href='pricing-table.html') Offers
+                        li
+                            a(href='menu.html') Our menu
+    // Breadcrumbs
+    .breadcrumb
+        .container
+            ul
+                li
+                    a(href='index.html') Home
+                li.active
+                    a(href='team.html') Team
+    // Section team top
+    section.section-team-top
+        .container
+            .col-md-5
+                h2 Our Team
+                p Dedicated restaurant service
+                p Originally we were and still are a family owned restaurant…
+                p
+                    | That means, that while our team almost in half consists of our founder’s family members, we’re anyways one
+                    | big friendly team!
+                p
+                    | All of our chefs, cooks, assistants or even waiters are highly professional, extra dedicated and super
+                    | friendly and hospitable!
+    // Section team body
+    section.section-team-body
+        .container
+            .row
+                .col-sm-3
+                    img.img-responsive(src='img/team/team-3.jpg', alt='')
+                    a(href='team-member.html')
+                        h3 Manuel Umberto Juarez
+                    p.position Chef
+                    p.description
+                        | While our founder is our main chef, he’s also a part of our family! Managing our menu,
+                        | interior, and finances, this man still manages to rock his major position – cooking a majority of our
+                        | restaurant dishes!
+                    ul.team-link
+                        li
+                            a.icon.fa.fa-facebook(href='#')
+                        li
+                            a.icon.fa.fa-twitter(href='#')
+                        li
+                            a.icon.fa.fa-google-plus(href='#')
+                .col-sm-3
+                    img.img-responsive(src='img/team/team-1.jpg', alt='')
+                    a(href='team-member.html')
+                        h3 Alberto Bernanzo
+                    p.position Chef's assistant
+                    p.description
+                        | Alberto is originally from Italy, which means that his passion for rich, flavorsome
+                        | and spicy southern dishes falls in line with our Mexican menu range!
+                    p.description
+                        | He’s Manuel’s right hand, helping him run the kitchen and oversee all other cooks
+                        | and assistants!
+                    ul.team-link
+                        li
+                            a.icon.fa.fa-facebook(href='#')
+                        li
+                            a.icon.fa.fa-twitter(href='#')
+                        li
+                            a.icon.fa.fa-google-plus(href='#')
+                .col-sm-3
+                    img.img-responsive(src='img/team/team-6.jpg', alt='')
+                    a(href='team-member.html')
+                        h3 Cortez Fernandez
+                    p.position Chef's assistant
+                    p.description
+                        | In an interesting twist, Cortez is Manuel’s brother in law… His incredible talent for
+                        | cooking was what landed him this position. While previously working at a Tex-Mex restaurant in San Diego,
+                        | Cortez gained enough experience and skills…
+                    ul.team-link
+                        li
+                            a.icon.fa.fa-facebook(href='#')
+                        li
+                            a.icon.fa.fa-twitter(href='#')
+                        li
+                            a.icon.fa.fa-google-plus(href='#')
+                .col-sm-3
+                    img.img-responsive(src='img/team/team-3.jpg', alt='')
+                    a(href='team-member.html')
+                        h3 Jordano Juarez
+                    p.position Cook
+                    p.description
+                        | Jordano is Manuel’s oldest son and among other 3 kids, he was the only one deciding
+                        | to pursue a career in the culinary business. His diligence and high working pace were what landed him an
+                        | insurmountable lead among all other cooks in our kitchen…
+                    ul.team-link
+                        li
+                            a.icon.fa.fa-facebook(href='#')
+                        li
+                            a.icon.fa.fa-twitter(href='#')
+                        li
+                            a.icon.fa.fa-google-plus(href='#')
+            .row
+                .col-sm-3
+                    img.img-responsive(src='img/team/team-8.jpg', alt='')
+                    a(href='team-member.html')
+                        h3 Serena Johnson
+                    p.position Cook
+                    p.description
+                        | Serena was the first cook we hired before opening our restaurant doors 12 years ago.
+                        | In these 12 years, she proved to be the most enthusiastic and innovative master we have, taking credit
+                        | for 12 signature dishes of her own recipe…
+                    ul.team-link
+                        li
+                            a.icon.fa.fa-facebook(href='#')
+                        li
+                            a.icon.fa.fa-twitter(href='#')
+                        li
+                            a.icon.fa.fa-google-plus(href='#')
+                .col-sm-3
+                    img.img-responsive(src='img/team/team-6.jpg', alt='')
+                    a(href='team-member.html')
+                        h3 Angel Juarez
+                    p.position Cook
+                    p.description
+                        | Angel is just one of those few people who besides loving eating a tasty meal also
+                        | loves to cook one… In fact, he loves cooking so much, that he’s basically the engine of our kitchen,
+                        | working and preparing almost a third of all orders…
+                    ul.team-link
+                        li
+                            a.icon.fa.fa-facebook(href='#')
+                        li
+                            a.icon.fa.fa-twitter(href='#')
+                        li
+                            a.icon.fa.fa-google-plus(href='#')
+                .col-sm-3
+                    img.img-responsive(src='img/team/team-8.jpg', alt='')
+                    a(href='team-member.html')
+                        h3 Jonathan Whiskers
+                    p.position Bartender
+                    p.description
+                        | When Jonathan left one of the biggest Juneau’s bars for a job at our bar desk, we
+                        | couldn’t have been more delighted. All in all, whatever the cocktail that you’re ordering is – be sure
+                        | that Johnny will make it lightning fast! Even, if he’s only about to invent one…
+                    ul.team-link
+                        li
+                            a.icon.fa.fa-facebook(href='#')
+                        li
+                            a.icon.fa.fa-twitter(href='#')
+                        li
+                            a.icon.fa.fa-google-plus(href='#')
+                .col-sm-3
+                    img.img-responsive(src='img/team/team-7.jpg', alt='')
+                    a(href='team-member.html')
+                        h3 Alicia Bernanzo
+                    p.position Senior Waitress
+                    p.description
+                        | Alicia is our senior waitress, overseeing all other waiters and waitresses and keeping
+                        | all of our hospitality crew intact! She’s such an energetic lady, that even 14 hours of full tables on the
+                        | 4th of July do not stop her from smiling and meaning it…
+                    ul.team-link
+                        li
+                            a.icon.fa.fa-facebook(href='#')
+                        li
+                            a.icon.fa.fa-twitter(href='#')
+                        li
+                            a.icon.fa.fa-google-plus(href='#')

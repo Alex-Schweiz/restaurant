@@ -1,0 +1,93 @@
+extends layouts/main
+
+block content
+    // Common menu44
+    section.common-menu
+        .container
+            .row.upper-info
+                ul.pull-right
+                    li
+                        span.fa.fa-map-marker
+                        |  6087 Richmond hwy, Alexandria, VA
+                    li
+                        span.fa.fa-phone
+                        |  703 329 0632
+                    li
+                        span.fa.fa-clock-o
+                        |  Mo-Fr 11:00-00:00, Sa-Su 15:00-00:00
+            .row
+                img(src='img/logo.png', alt='logo')
+                nav.pull-right
+                    ul.menu
+                        li
+                            a(href='index.html') Home
+                        li
+                            a(href='services.html') Services
+                        li
+                            a(href='team.html') Team
+                        li
+                            a(href='pricing-table.html') Offers
+                        li
+                            a(href='menu.html') Our menu
+    // Breadcrumbs
+    .breadcrumb
+        .container
+            ul
+                li
+                    a(href='index.html') Home
+                li
+                    a(href='menu.html') Menu
+                li.active
+                    a(href='barbacoa.html') Barbacoa
+    // Appetizer
+    section.section-barbacoa
+        .container
+            img(src='img/dish/menu-item-1-1-1170x679.jpg', alt='')
+            .row.dish-description
+                .col-md-8
+                    h2 Authentic Mexican Barbacoa
+                    p As it turns out, not everyone loves their guacamole the same!
+                    p
+                        | In fact, this mild version of a guacamole dish is proven to be our yet most popular main course dish!
+                    p It’s milder than not, lemon spruced and not too much spicy to become hot!
+                .col-md-4.dish-content
+                    h3
+                        | Price:
+                        span.price
+                        | $5.45
+                    .property
+                        h4 Portion Size
+                        p
+                            span.fa.fa-chevron-right
+                            | Weight: 650g
+                    .property
+                        h4 Ingredients
+                        p
+                            span.fa.fa-chevron-right
+                            | 200g of Black Angus steak
+                        p
+                            span.fa.fa-chevron-right
+                            | Eggs
+                        p
+                            span.fa.fa-chevron-right
+                            | Lemon
+                        p
+                            span.fa.fa-chevron-right
+                            | Rice
+                        p
+                            span.fa.fa-chevron-right
+                            | Salmon
+                        p
+                            span.fa.fa-chevron-right
+                            | Salt
+                        p
+                            span.fa.fa-chevron-right
+                            | Thyme
+                        p
+                            span.fa.fa-chevron-right
+                            | Water
+                    .property
+                        h4 Nutrition Facts
+                        p
+                            span.fa.fa-chevron-right
+                            | Calories: 650

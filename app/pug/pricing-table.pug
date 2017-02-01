@@ -1,0 +1,103 @@
+extends layouts/main
+
+block content
+    // Common menu
+    section.common-menu
+        .container
+            .row.upper-info
+                ul.pull-right
+                    li
+                        span.fa.fa-map-marker
+                        |  6087 Richmond hwy, Alexandria, VA
+                    li
+                        span.fa.fa-phone
+                        |  703 329 0632
+                    li
+                        span.fa.fa-clock-o
+                        |  Mo-Fr 11:00-00:00, Sa-Su 15:00-00:00
+            .row
+                img(src='img/logo.png', alt='logo')
+                nav.pull-right
+                    ul.menu
+                        li
+                            a(href='index.html') Home
+                        li
+                            a(href='services.html') Services
+                        li
+                            a(href='team.html') Team
+                        li
+                            a(href='pricing-table.html') Offers
+                        li
+                            a(href='menu.html') Our menu
+    // Breadcrumbs
+    .breadcrumb
+        .container
+            ul
+                li
+                    a(href='index.html') Home
+                li.active
+                    a(href='pricing-table.html') Pricing Table
+    // Pricing table
+    section.section-pricing-table
+        .container
+            h1 Our Offers
+            .col-md-4
+                .price-offer
+                    span.offer-title Mexican lunch
+                    h3 $20
+                    .offer-ingredient
+                        p Mild Guacamole
+                        p Frutas Guacamole
+                        p Rojo Guacamole
+                        p Ceviche Peruano
+                    .offer-button
+                        a(href='#') Full menu
+            .col-md-4
+                .price-offer
+                    span.offer-title.primary Burito lunch
+                    h3 $18
+                    .offer-ingredient
+                        p Hamachi
+                        p Toro Taquitos
+                        p Sopa de Tortilla
+                        p Ensalada de Jicama
+                    .offer-button
+                        a.primary(href='#') Full menu
+            .col-md-4
+                .price-offer
+                    span.offer-title Tokito lunch
+                    h3 $22
+                    .offer-ingredient
+                        p Quesadilla de Camaron
+                        p Quesadilla de Tuetano
+                        p Hongos & Nopales
+                        p Polo Taco
+                    .offer-button
+                        a(href='#') Full menu
+    // Our reviews
+    section.section-our-reviews
+        .container
+            h3 What people are saying about our restaurant
+            p Anyone, who visits our place leaves us well fed and in a great mood!
+            .clients-reviews
+                .col-md-4
+                    p
+                        | As for a family that moved to Juneau, Alaska from the sunny state’s city of San Diego, finding at least one
+                        | Mexican restaurant here was incredible! An icing on the cake: it’s actually very tasty here!
+                    img.img-responsive.img-circle(src='img/testimonials/testimonial-1.jpg', alt='')
+                    p.review-name Andrew
+                    p posted on, TripAdvisor
+                .col-md-4
+                    p
+                        | While I’ve been living in Alaska my whole life, I’ve always enjoyed visiting a local TexMex restaurant in
+                        | Anchorage… Since I and my husband moved over to Juneau, we’ve been delighted to find another one up here!
+                    img.img-responsive.img-circle(src='img/testimonials/testimonial-2.jpg', alt='')
+                    p.review-name Diane
+                    p posted on, foursquare
+                .col-md-4
+                    p
+                        | henever I feel hungry or fancy a romantic dining out with my fiancee, we always end up booking a table up here…
+                        | It’s just so festive and tasty, I guess we just can’t do anything about it…
+                    img.img-responsive.img-circle(src='img/testimonials/testimonial-1.jpg', alt='')
+                    p.review-name Steven
+                    p posted on, Yelp

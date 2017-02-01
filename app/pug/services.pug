@@ -1,0 +1,99 @@
+extends layouts/main
+
+block content
+    // Common menu
+    section.common-menu
+        .container
+            .row.upper-info
+                ul.pull-right
+                    li
+                        span.fa.fa-map-marker
+                        |  6087 Richmond hwy, Alexandria, VA
+                    li
+                        span.fa.fa-phone
+                        |  703 329 0632
+                    li
+                        span.fa.fa-clock-o
+                        |  Mo-Fr 11:00-00:00, Sa-Su 15:00-00:00
+            .row
+                img(src='img/logo.png', alt='logo')
+                nav.pull-right
+                    ul.menu
+                        li
+                            a(href='index.html') Home
+                        li
+                            a(href='services.html') Services
+                        li
+                            a(href='team.html') Team
+                        li
+                            a(href='pricing-table.html') Offers
+                        li
+                            a(href='menu.html') Our menu
+    // Breadcrumbs
+    .breadcrumb
+        .container
+            ul
+                li
+                    a(href='index.html') Home
+                li.active
+                    a(href='services.html') Services
+    // Services
+    section.section-services
+        .container
+            h1 Services
+            h3 All things food… Mexican food!
+            p
+                | We’re sure, that a restaurant can be so much more, than just a place to dine or have a lunch at!
+            p
+                | That’s why in a few recent years we’ve expanded a range of food-related services, which our Juneau-based
+                | Mexican restaurant offers...
+            p
+                | A full list goes as wide as to include the catering services, waiter rentals for any type of event you may be
+                | holding, or even making and delivering you a custom diet menu!
+    // Our services
+    section.section-our-services
+        .container
+            .row
+                .col-md-4
+                    a(href='school-menu.html')
+                        img.img-responsive(src='img/services-icon-1-1.png', alt='')
+                    a(href='school-menu.html') Catering
+                    p
+                        | We offer a wide range of catering for any type of a casual or a festive event – from a wedding
+                        | to a birthday, all enhanced with authentic Mexican food!
+                .col-md-4
+                    a(href='school-menu.html')
+                        img.img-responsive(src='img/services-icon-2-1.png', alt='')
+                    a(href='school-menu.html') Waiter rental
+                    p
+                        | We are not afraid to lend you with our waiters, whichever food-related event you’ll be using them
+                        | at… They will heighten a customer service up to a notch!
+                .col-md-4
+                    a(href='school-menu.html')
+                        img.img-responsive(src='img/services-icon-3-1.png', alt='')
+                    a(href='school-menu.html') Business catering
+                    p
+                        | Why we offer catering for both individuals and companies, this service gains more traction… Order
+                        | it and add Mexican spice to your regular business meeting!
+            .row
+                .col-md-4
+                    a(href='school-menu.html')
+                        img.img-responsive(src='img/services-icon-4-1.png', alt='')
+                    a(href='school-menu.html') School menus
+                    p
+                        | In the last 3 years, we’ve supplied more than 15 Juneau high schools with a quality Mexican
+                        | food for kids’ lunchboxes! Join the list now!
+                .col-md-4
+                    a(href='school-menu.html')
+                        img.img-responsive(src='img/services-icon-5-1.png', alt='')
+                    a(href='school-menu.html') Party consulting
+                    p
+                        | If your event planning agency or your company needs our piece of advice on catering  at your party,
+                        | be our guests… We’ll be delighted to help you with that!
+                .col-md-4
+                    a(href='school-menu.html')
+                        img.img-responsive(src='img/services-icon-6-1.png', alt='')
+                    a(href='school-menu.html') Diet menu
+                    p
+                        | Though Mexican food is rarely associated with a term of a “diet food”, we’ll be glad to denounce that
+                        | wrongful notion with our vegetarian, yet nutritious diet meals per order!

@@ -1,0 +1,191 @@
+doctype html
+html(lang='en')
+    include includes/head
+    body
+        // Top part
+        header
+            .container
+                .row.upper-info
+                    ul.pull-right
+                        li
+                            span.fa.fa-map-marker
+                            |  6087 Richmond hwy, Alexandria, VA
+                        li
+                            span.fa.fa-phone
+                            |  703 329 0632
+                        li
+                            span.fa.fa-clock-o
+                            |  Mo-Fr 11:00-00:00, Sa-Su 15:00-00:00
+                .row
+                    img(src='img/logo.png', alt='logo')
+                    nav.pull-right
+                        ul.menu
+                            li
+                                a(href='index.html') Home
+                            li
+                                a(href='services.html') Services
+                            li
+                                a(href='team.html') Team
+                            li
+                                a(href='pricing-table.html') Offers
+                            li
+                                a(href='menu.html') Our menu
+                .row.main-text
+                    h1 Get spicy shrimp tacos with hot mango gravy!
+                    h2 Pungent Mexican tacos...
+                    h3 This July, all our spicy tacos are offered with a 15% discount, all month long!
+                    a.btn(href='#') Book a table
+        // Shaurma
+        section.section-shaurma
+            .container
+                .row
+                    .col-md-6
+                        h2 The celebration of Mexico’s vibrant history and culture.
+                        h5
+                            | Centuries of conquest, independence and revolution have left us with a diverse culinary heritage and a
+                            | generous appetite for festivity.
+                        p
+                            | At Hidalgo, you will find authentic, homemade, Central Mexican cuisine in the warm, gracious atmosphere
+                            | of a Mexican country estate. Our bar features a wide selection of tequilas and margaritas, as well as a
+                            | unique Menu.
+                        a(href='') About Us
+                    .col-md-6
+                        img(src='img/homepage_img-1.png', alt='')
+        // Chef recommends
+        section.section-chef
+            .container
+                h2 Chef Juarez Recommends
+            // First row
+            .row
+                .col-md-3.col-sm-6.col-xs-12
+                    a(href='barbacoa.html')
+                        img(src='img/menu-item-1-1-480x380.jpg', alt='')
+                    .overlay
+                    .receipe
+                        h5
+                            a(href='barbacoa.html') Authentic Mexican Barbacoa
+                            span.price.pull-right  $5.45
+                        p 200g of Black Angus steak, french fries, Coleslav salad, beer
+                .col-md-3.col-sm-6.col-xs-12
+                    a(href='barbacoa.html')
+                        img(src='img/menu-item-2-480x380.jpg', alt='')
+                    .receipe
+                        h5
+                            a(href='barbacoa.html') Plate with Taco
+                            span.price.pull-right  $18.45
+                        p Nachos chips and tomato dip, french fries, Coleslav salad, beer
+                .col-md-3.col-sm-6.col-xs-12
+                    a(href='barbacoa.html')
+                        img(src='img/menu-item-3-1-480x380.jpg', alt='')
+                    .receipe
+                        h5
+                            a(href='barbacoa.html') Beef Fajitas with color
+                            span.price.pull-right  $23.45
+                        p Peppers in pan and tortilla bread and sauces
+                .col-md-3.col-sm-6.col-xs-12
+                    a(href='barbacoa.html')
+                        img(src='img/menu-item-4-480x380.jpg', alt='')
+                    .receipe
+                        h5
+                            a(href='barbacoa.html') Taco Salad in a Tortilla
+                            span.price.pull-right  $18.45
+                        p Bowl with Beef Cheese and Lettuce
+            // Second row
+            .row
+                .col-sm-3
+                    a(href='barbacoa.html')
+                        img(src='img/menu-item-5-480x380.jpg', alt='')
+                    .receipe
+                        h5
+                            a(href='barbacoa.html') Tortillas with Chili Con
+                            span.price.pull-right  $23.85
+                        p 200g of Black Angus steak, french fries, Coleslav salad, beer
+                .col-sm-3
+                    a(href='barbacoa.html')
+                        img(src='img/menu-item-6-480x380.jpg', alt='')
+                    .receipe
+                        h5
+                            a(href='barbacoa.html') Healthy Chicken Salad
+                            span.price.pull-right  $35.45
+                        p Nachos chips and tomato dip, french fries, Coleslav salad, beer
+                .col-sm-3
+                    img(src='img/menu-item-7-480x380.jpg', alt='')
+                    .receipe
+                        h5
+                            a(href='barbacoa.html') Chipotle-Avocado Sandwich
+                            span.price.pull-right  $34.45
+                        p Recipe, bio healthy, eat clean
+                .col-sm-3
+                    img(src='img/menu-item-8-480x380.jpg', alt='')
+                    .receipe
+                        h5
+                            a(href='barbacoa.html') Langosta Taco
+                            span.price.pull-right  $34.45
+                        p Bowl with Beef Cheese and Lettuce
+        // testimonials
+        section.section-testimonials
+            .container
+                h2 See how happy all of our visitors are
+                img.img-responsive(src='img/homepage_mst.png', alt='')
+                .row
+                    .col-sm-6
+                        p.review
+                            | As for a family that moved to Juneau, Alaska from the sunny state’s city of San Diego, finding at least
+                            | one Mexican restaurant here was incredible! An icing on the cake: it’s actually very tasty here!
+                        img.img-responsive.img-circle(src='img/testimonial-1.jpg', alt='')
+                        h5 Andrew Winchester
+                        p posted on, TripAdvisor
+                    .col-sm-6
+                        p.review
+                            | While I’ve been living in Alaska my whole life, I’ve always enjoyed visiting a local TexMex restaurant
+                            | in Anchorage… Since I and my husband moved over to Juneau, we’ve been delighted to find another one up here!
+                        img.img-responsive.img-circle(src='img/testimonial-2.jpg', alt='')
+                        h5 Diana smith
+                        p posted on, foursquare
+        // home menu
+        section.section-home-menu
+            .row
+                .col-md-3.col-sm-6.col-xs-12
+                    a(href='menu.html')
+                        img(src='img/appetizers.jpg', alt='')
+                        .menu-title
+                            h2 Appetizers
+                .col-sm-3.col-sm-6.col-xs-12
+                    a(href='menu.html')
+                        img(src='img/main-courses.jpg', alt='')
+                        .menu-title
+                            h2 Main Courses
+                .col-sm-3.col-sm-6.col-xs-12
+                    a(href='menu.html')
+                        img(src='img/desserts.jpg', alt='')
+                        .menu-title
+                            h2 Desserts
+                .col-sm-3.col-sm-6.col-xs-12
+                    a(href='menu.html')
+                        img(src='img/beverages.jpg', alt='')
+                        .menu-title
+                            h2 Beverages
+        // The chef
+        section.section-the-chef
+            .container
+                .col-md-7
+                    h2 Manuel Juarez, the Chef
+                    h4
+                        | Do you feel hungry for good food and festive mood, while living in or visiting the beautiful city of Juneau?
+                    p
+                        | I invite you to my family Mexican restaurant, filled with authentic Mexican dishes and drinks, just as well as the festive, Southern atmosphere and interior!
+                    p Be my guest today!
+        // interior
+        section.section-interior
+            .container
+                .col-md-6
+                    h2 Interior
+                    h6
+                        | Our Mexican restaurant is livid, bright and festive not just in a culinary way, but in regard to our atmosphere and
+                        | interior too!
+                    p
+                        | Each evening we host a live mariachi band and each day our interior theme changes to represent some another Mexican
+                        | state or a city, like Mexico, Juarez, Baja California and so much more…
+                    a.btn(href='') Gallery
+        // footer
+        include includes/footer.pug

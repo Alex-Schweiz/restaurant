@@ -1,0 +1,921 @@
+body {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.65;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #686868;
+}
+
+span {
+    color: #cad068;
+}
+
+header {
+    background-image: url(./../img/showcase_bg.jpg);
+    width: 100%;
+    height: 1040px;
+}
+
+header ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+header li {
+    margin-top: 8px;
+    display: inline-block;
+    margin-right: 25px;
+    color:#ffffff;
+}
+
+.menu li a {
+    padding: 0 35px 50px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.menu li a:hover {
+    color: #cad068;
+    text-decoration: none;
+}
+
+.main-text {
+    color: #fff;
+    margin-top: 170px;
+    letter-spacing: 0;
+}
+
+.main-text h1 {
+    font-size: 20px;
+}
+
+.main-text h2 {
+    font-size: 70px;
+}
+
+.main-text h1, h2 {
+    text-transform: uppercase;
+}
+
+.main-text a, .section-interior a {
+    margin-top: 50px;
+    background-color: transparent;
+    border: 3px solid #fff;
+    border-radius: 32px;
+    padding: 23px 63px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.main-text a:hover, .section-interior a:hover {
+    background-color: #cad068;
+    color: #fff;
+    border-color: #cad068;
+    transition: .3s;
+}
+
+/* Section Shaurma */
+.section-shaurma  {
+}
+
+
+.section-shaurma h2 {
+    margin-top: 120px;
+    font-size: 40px;
+    color: #000;
+}
+
+.section-shaurma h5 {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #686868;
+}
+
+.section-shaurma p {
+    font-weight: 300;
+    margin-top: 30px;
+    font-size: 16px;
+    color: #686868;
+}
+
+.section-shaurma a {
+    color: #cad068;
+}
+
+.section-shaurma a:hover {
+    color: #686868;
+    text-decoration: none;
+}
+
+.shaurma {
+    margin-top: 80px;
+    background-image: url(./../img/home_bkg-1.png);
+    width: 100%;
+}
+
+.shaurma img {
+    padding-left: 100px;
+}
+
+/* Section Chef */
+
+.section-chef {
+    max-width: 98%;
+    margin-top: 40px;
+}
+
+
+.section-chef h2{
+    margin-bottom: 40px;
+    text-align: center;
+    color: #000;
+}
+
+.section-chef img {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+
+.section-chef a {
+    text-transform: uppercase;
+    color: #686868;
+    transition: 0.4s;
+}
+
+.section-chef a::after {
+    border-bottom: 2px dotted;
+}
+
+.section-chef a:hover {
+    text-decoration: none;
+    color: #cad068;
+}
+
+.section-chef h5 {
+    margin-left: 0;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.price {
+    color: #dc2313;
+}
+
+.receipe {
+    margin:15px 25px;
+}
+
+.receipe p{
+    margin-bottom: 25px;
+    font-size: 13px;
+    color: #bdbdbd;
+}
+
+/* Testimonials */
+
+.section-testimonials {
+    margin-top: 80px;
+    background-image: url(./../img/testimonials_bkg.jpg);
+    width: 100%;
+    height: 634px;
+}
+
+.section-testimonials p, img{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-testimonials h2 {
+    padding-top: 100px;
+    color: #686868;
+    text-align: center;
+}
+
+.section-testimonials img {
+    padding-top: 40px;
+    left: 50px;
+}
+
+.section-testimonials h5 {
+    font-size: 20px;
+    padding-top: 40px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: #686868;
+    text-align: center;
+}
+
+.review {
+    padding-top: 50px;
+    font-size: 18px;
+    line-height: 32px;
+    font-style: italic;
+}
+
+/* Home menu */
+.section-home-menu {
+    max-width: 100%;
+}
+
+.section-home-menu img {
+    width: 100%;
+}
+
+.section-home-menu h2 {
+    position: absolute;
+    text-transform: uppercase;
+    color: #fff;
+    top: 65%;
+    left: 20%;
+    font-size: 40px;
+    z-index: 1;
+}
+
+.menu-title {
+    text-align: center;
+    top: 80px;
+    z-index: 1;
+}
+
+/* The Chef */
+.section-the-chef {
+    background-image: url(./../img/chef-bkg-1.png);
+    width: 100%;
+    height: 670px;
+}
+
+.section-the-chef h2 {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 150px;
+}
+
+.section-the-chef h4 {
+    margin-top: 35px;
+    color: #686868;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.section-the-chef p {
+    margin-top: 30px;
+    color: #686868;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+/* Section iterior */
+
+.section-interior {
+    background-image: url(./../img/home-parallax-1.jpg);
+    width: 100%;
+    height: 670px;
+    color: #fff;
+}
+
+.section-interior h2 {
+    margin-top: 220px;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.section-interior h6 {
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.section-interior p {
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* footer */
+footer {
+    background-image: url(./../img/footer-block.png);
+    width: 100%;
+    height: 362px;
+    color: #fff;
+}
+
+footer p {
+    margin-top: 25px;
+    padding-right: 10px;
+}
+
+/* Insta items */
+.insta-item {
+    display: inline-block;
+    width: 92px;
+}
+
+.insta-img {
+    width: 91px;
+    margin-bottom: 2px;
+}
+
+.footer-info {
+    margin-top: 110px;
+}
+
+.footer-info h4 {
+     text-transform: uppercase;
+ }
+
+.footer-info ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+.footer-info ul li {
+    margin-top: 15px;
+}
+
+.footer-info ul li span {
+    margin-right: 15px;
+}
+
+hr {
+    margin: 5px 0 0 0;
+    color: #fff;
+}
+
+.lower-footer {
+    padding: 10px 0 10px;
+    background-color: #000;
+}
+
+.lower-footer ul {
+    list-style-type: none;
+}
+
+.lower-footer ul li {
+    display: inline-block;
+}
+
+.lower-footer ul li a {
+    color: #686868;
+    font-size: 20px;
+    margin-left: 20px;
+    transition: .3s;
+}
+
+.lower-footer ul li a:hover {
+    text-decoration: none;
+    color: #cad068;
+}
+
+/* Common menu */
+.common-menu {
+    background-color: #1d2027;
+}
+
+.common-menu ul {
+    list-style-type: none;
+    color: #fff;
+}
+
+.common-menu ul li, .breadcrumb ul li{
+    display: inline-block;
+}
+
+.upper-info li {
+    margin: 5px 0 5px 20px ;
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+    background-color: #fff;
+    margin-bottom: 0;
+}
+
+.breadcrumb ul {
+    list-style-type: none;
+}
+
+.breadcrumb li {
+    margin: 15px 15px 10px 0;
+}
+
+.breadcrumb li a {
+    color: #cad068;
+    transition: .3s;
+}
+
+.breadcrumb li a:hover {
+    color: #686868;
+    text-decoration: none;
+}
+
+/* Section services */
+.section-services {
+    background-image: url(./../img/services-bkg.jpg);
+    width: 100%;
+    height: 678px;
+    color: #fff;
+}
+
+.section-services h1 {
+    margin-top: 130px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-services h3 {
+    margin-top: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+.section-services p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Section our services */
+.section-our-services {
+    margin: 30px 0 80px;
+    text-align: center;
+}
+.section-our-services img {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.section-our-services a{
+    font-size: 20px;
+    color: #686868;
+    padding: 100px 0 10px;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.section-our-services a:hover {
+    text-decoration: none;
+    color: #cad068;
+}
+
+/* School menu header */
+.school-menu-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./../img/school-menu-bkg-1.jpg);
+    width: 100%;
+    height: 260px;
+    color: #fff;
+}
+
+.school-menu-header h2 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.school-menu-header p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* School menu body */
+
+.school-menu-body {
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.school-menu-body img {
+    width: 83%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.school-menu-body h5 {
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.school-menu-body p {
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+/* Section reservation */
+.section-reservation {
+    margin-top: 10px;
+    padding-bottom: 50px;;
+    background-color: #f8f9f0;
+}
+
+.section-reservation h3 {
+    padding-top: 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.section-reservation input {
+    height: 50px;
+}
+
+.section-reservation button, .reply-form button {
+    margin: 10px 120px 0 ;
+    height: 64px;
+    padding: 22px 60px 22px;
+    text-transform: uppercase;
+    background-color: #cad068;
+    border: 1px solid #cad068;
+    border-radius: 30px;
+}
+
+.section-reservation button:hover, .reply-form button:hover {
+    background-color: #bec45f;
+    border: 1px solid #bec45f;
+}
+
+.reservation-form {
+    padding-top: 20px;
+}
+
+/* Section team top */
+.section-team-top {
+    background-image: url(./../img/team-section-bg.jpg);
+    width: 100%;
+    height: 680px;
+    color: #686868;
+}
+
+.section-team-top h2 {
+    margin-top: 120px;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.section-team-top p {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 300;
+}
+
+/* Section team body */
+.section-team-body {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.section-team-body h3 {
+    font-size: 29px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #000;
+    transition: .3s;
+}
+
+.section-team-body a h3:hover {
+     text-decoration: none;
+     color: #cad068;
+ }
+
+.section-team-body a:hover {
+    text-decoration: none;
+}
+
+.section-team-body .position {
+    color: #bbb;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.section-team-body .description {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.team-link {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.team-link li{
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.team-link a{
+    color: #686868;
+    transition: .3s;
+}
+
+.team-link a:hover{
+    color: #cad068;
+    text-decoration: none;
+}
+
+/* Team Member */
+.section-team-member {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.section-team-member h3{
+    margin-top: 160px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+/* Pricing table */
+.section-pricing-table {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.section-pricing-table h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.price-offer {
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 7px #ddd;
+    text-align: center;
+}
+
+.price-offer h3 {
+    margin-top: 45px;
+    margin-bottom: 30px;
+    font-size: 66px;
+    line-height: 70px;
+    font-weight: 700;
+}
+
+.offer-title {
+    margin-top: 20px;
+    background-color: #686868;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 5px 20px 5px;
+    border-radius: 10px;
+}
+
+.offer-ingredient {
+    padding-top: 45px;
+    background-color: #fafaf6;
+    padding-bottom: 30px;
+}
+
+.offer-ingredient p {
+    padding-bottom: 12px;;
+    margin-bottom: 0;
+}
+
+.offer-button {
+    margin: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.offer-button a{
+    padding: 20px 40px 20px;
+    background-color: #bdbdbd;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 7px #bbb;
+    border-radius: 28px;
+    transition: .5s;
+}
+
+.offer-button a:hover{
+    background-color: #686868;
+    text-decoration: none;
+}
+
+.primary {
+    background-color: #cad068;
+}
+
+.offer-button .primary {
+     background-color: #cad068;
+ }
+
+.offer-button .primary:hover {
+    background-color: #b8be59;
+}
+
+/* Our reviews */
+.section-our-reviews {
+    padding: 80px 20px 60px;
+    background-color: #f8f9f0;
+    text-align: center;
+}
+
+.section-our-reviews h3 {
+    font-size: 38px;
+    line-height: 52px;
+    text-transform: uppercase;
+}
+
+.clients-reviews {
+    margin-top: 90px;
+    margin-bottom: 25px;
+}
+
+.clients-reviews img {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.review-name {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+/* Menu */
+.section-menu {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.section-menu img{
+    overflow: hidden;
+}
+
+.section-menu .col-md-3 {
+    width: 282px;
+    overflow: hidden;
+}
+
+.section-menu p {
+    position: absolute;
+    text-transform: uppercase;
+    color: #fff;
+    top: 65%;
+    left: 20%;
+    font-size: 40px;
+    z-index: 1;
+}
+
+/* Appetizer */
+.section-appetizer {
+    margin-top: 40px;
+    margin-bottom: 70px;
+    text-align: center;
+    background: url(./../img/menu/smallbites_spanishtortilla.jpg);
+    width: 100%;
+    height: 240px;
+    color: #fff;
+}
+
+.section-appetizer h1{
+    margin-top: 85px;
+    font-size: 44px;
+    text-transform: uppercase;
+}
+
+/* Appetizer body */
+.section-appetizer-body {
+    margin-top: 85px;
+    margin-bottom: 70px;
+}
+
+.section-appetizer-body .receipe {
+    margin-top: 25px;
+}
+
+.section-appetizer-body .receipe:first-child {
+    margin-top: 0;
+}
+
+.dishes h5{
+    text-align: left;
+}
+
+.dishes a{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #686868;
+}
+
+.dishes span{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #dc2313;
+}
+
+.dishes a:hover{
+    color: #cad068;
+    text-decoration: none;
+}
+
+.dishes {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
+/* Barbacoa */
+.dish-description {
+    margin-top: 75px;
+    margin-bottom: 70px;
+}
+
+.dish-description h2 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #1d2027;
+}
+
+.dish-description p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.comments {
+    background-color: #fafaf6;
+    text-align: center;
+}
+
+.comments h3{
+    padding-top: 30px;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+}
+
+.reply-form {
+    text-align: left;
+}
+
+.dish-content h3{
+    color: #dc2313;
+    font-size: 29px;
+    line-height: 52px;
+    text-transform: uppercase;
+}
+
+.dish-content h4{
+    margin-top: 30px;
+    font-size: 29px;
+    line-height: 52px;
+    text-transform: uppercase;
+}
+
+.dish-content p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.dish-content span{
+    color: #686868;
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

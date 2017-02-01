@@ -1,0 +1,104 @@
+extends layouts/main
+
+block content
+    // Common menu
+    section.common-menu
+        .container
+            .row.upper-info
+                ul.pull-right
+                    li
+                        span.fa.fa-map-marker
+                        |  6087 Richmond hwy, Alexandria, VA
+                    li
+                        span.fa.fa-phone
+                        |  703 329 0632
+                    li
+                        span.fa.fa-clock-o
+                        |  Mo-Fr 11:00-00:00, Sa-Su 15:00-00:00
+            .row
+                img(src='img/logo.png', alt='logo')
+                nav.pull-right
+                    ul.menu
+                        li
+                            a(href='index.html') Home
+                        li
+                            a(href='services.html') Services
+                        li
+                            a(href='team.html') Team
+                        li
+                            a(href='pricing-table.html') Offers
+                        li
+                            a(href='menu.html') Our menu
+    // Breadcrumbs
+    .breadcrumb
+        .container
+            ul
+                li
+                    a(href='index.html') Home
+                li
+                    a(href='services.html') Services
+                li.active
+                    a(href='school-menu.html') School Menu
+    // School menu header
+    section.school-menu-header
+        .container
+            h2 School menus
+            p
+                | In the last 3 years, we’ve supplied more than 15 Juneau high schools with a quality Mexican food for kids’
+                | lunch-boxes! Join the list now!
+    // School menu body
+    section.school-menu-body
+        .container
+            h5
+                | While it’s safe to say, that absolutely any kind of an occasion, festivity or a socially important event needs food
+                | and drinks to be catered, there’s now a whole multitude of cuisines that you can be choosing your caterer from…
+            p
+                | With our wide selection of various traditional Mexican dishes and the big range of N/A and alcoholic beverages for catering,
+                | our services have already been picked for hundreds of occasions!
+            img.img-responsive(src='img/school-menu-1-1.jpg', alt='')
+            p
+                | Without any doubt, our team has got all the skills and manpower that it takes for professionally serving weddings,
+                | anniversaries, bachelor parties and basically any other entertaining kinds of events…
+            p
+                | So the first thing we’ll be doing, as you’ll approach us with your order for catering an event, we’ll be talking to you
+                | about the meals and drinks selection…
+            p
+                | It’s a safe bet to suppose, that while Mexican food is diverse enough to become a part of any type of occasion, there are
+                | some events which need the menu to be adapted and optimized a bit.
+            p
+                | This includes making food for an event with kids more healthy and less spicy, just as well as the opposite for gala dinners,
+                | weddings and any other kinds of parties!
+            p
+                | Also, besides providing  appetizers, dishes, and beverages we will surely supply your event with our waiters
+                | and bartenders!
+            p
+                | We’ve been serving food for Alaska events for years. Be sure that we know how to make it tasty and festive!
+    // Reservation
+    section.section-reservation
+        .container
+            .col-md-1
+            .col-md-5
+                h3 Reservation
+                p
+                    | We are always ready to meet all your needs and requirements during the night time. Please call 555.329.0632 or
+                    | fill out the contact form and we will call back to you ASAP.
+            .col-md-5.reservation-form
+                form(action='')
+                    .col-md-6
+                        .form-group
+                            label.form-label.form-label-outside(for='contact-name')
+                            input#contact-name.form-control.form-control-has-validation.form-control-last-child(name='name', data-contraints='@Required', type='text', placeholder='Your name')
+                            span.form-validation
+                    .col-md-6
+                        .form-group
+                            label.form-label.form-label-outside(for='contact-email')
+                            input#contact-phone.form-control.form-control-has-validation.form-control-last-child(name='email', data-contraints='@Required', type='text', placeholder='Phone')
+                            span.form-validation
+                    .col-md-12
+                        .form-group
+                            label.form-label.form-label-outside(for='contact-email')
+                            input#contact-email.form-control.form-control-has-validation.form-control-last-child(name='email', data-contraints='@Required', type='email', placeholder='Email')
+                            span.form-validation
+                    .col-sm-2
+                        button.btn.btn-primary(type='submit') Submit
+            .col-md-1

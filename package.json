@@ -1,0 +1,26 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "Alex Mexican restaurant web app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex_sSchweiz/restaurant.git"
+  },
+  "keywords": [
+    "css",
+    "js",
+    "html",
+    "bootstrap",
+    "theme",
+    "responsive"
+  ],
+  "license": "MIT",
+  "author": "Alex Skibinskiy",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-pug": "^3.2.0",
+    "gulp-watch": "^4.3.11"
+  }
+}
