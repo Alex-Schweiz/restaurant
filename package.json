@@ -4,7 +4,7 @@
   "description": "Alex Mexican restaurant web app",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alex_sSchweiz/restaurant.git"
+    "url": "git+https://github.com/Alex_Schweiz/restaurant.git"
   },
   "keywords": [
     "css",
@@ -14,6 +14,9 @@
     "theme",
     "responsive"
   ],
+  "scripts" : {
+    "postinstall": "gulp"
+  },
   "license": "MIT",
   "author": "Alex Skibinskiy",
   "devDependencies": {
